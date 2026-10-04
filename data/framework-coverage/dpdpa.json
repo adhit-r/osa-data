@@ -220,7 +220,7 @@
     },
     {
       "id": "Act.8(2)",
-      "title": "Data Processor engaged only under a valid contract",
+      "title": "Data Processor engaged for offering goods or services only under a valid contract",
       "controls": [
         "SA-04",
         "SA-09"
@@ -238,7 +238,7 @@
       ],
       "coverage_pct": 80,
       "rationale": "SI-18 requires the accuracy, relevance, timeliness and completeness of personal data to be checked across its life cycle and inaccurate data corrected or deleted. PM-22 requires organisation-wide policies and procedures for the same.",
-      "gaps": "Consistency of data disclosed to another Data Fiduciary is not named."
+      "gaps": "Consistency is not named in SI-18 or PM-22, which speak of accuracy, relevance, timeliness and completeness. The duty arises only where the data is likely to be used to make a decision that affects the Data Principal or to be disclosed to another Data Fiduciary."
     },
     {
       "id": "Act.8(4)",
@@ -339,7 +339,7 @@
       ],
       "coverage_pct": 45,
       "rationale": "PT-04 requires consent mechanisms, and PT-07 lets the organisation set conditions for a specific category of personal data such as that of children. IA-12 requires identity evidence to be collected, validated and verified, which is the means of verifying a parent or guardian.",
-      "gaps": "No control requires a parent's or guardian's consent, or defines a child as a person under eighteen. Rules 10 and 11 set how the consent is verified."
+      "gaps": "No control requires a parent's or guardian's consent, or defines a child as a person under eighteen. Rules 10 and 11 set how the consent is verified. Section 9(4) and rule 12 (Fourth Schedule) disapply sections 9(1) and 9(3) to the classes of Data Fiduciary and the purposes listed there, and section 9(5) lets the Central Government notify an age above which a Data Fiduciary is exempt from them."
     },
     {
       "id": "Act.9(2)",
@@ -362,7 +362,7 @@
       ],
       "coverage_pct": 25,
       "rationale": "PT-02 restricts processing to what is authorised and PT-07 applies conditions to specific categories of personal data. An organisation can use them to bar tracking, behavioural monitoring and targeted advertising for children's data.",
-      "gaps": "The prohibition itself is not in SP 800-53. The controls enforce a rule the organisation must write."
+      "gaps": "The prohibition itself is not in SP 800-53. The controls enforce a rule the organisation must write. Section 9(4) and rule 12 (Fourth Schedule) disapply the prohibition to the classes and purposes listed there, and section 9(5) lets the Central Government notify an age above which a Data Fiduciary is exempt."
     },
     {
       "id": "Act.10(2)(a)",
@@ -440,7 +440,7 @@
       ],
       "coverage_pct": 90,
       "rationale": "PM-26 requires a complaint process with mechanisms that are readily accessible, tracking, acknowledgement and a response within a defined period.",
-      "gaps": ""
+      "gaps": "The right and the duty bind a Consent Manager as well as a Data Fiduciary. The period for responding is set by rule 14(3)."
     },
     {
       "id": "Act.14",
@@ -652,7 +652,7 @@
       ],
       "coverage_pct": 80,
       "rationale": "AU-11 requires audit records to be retained for a defined period. SI-12 manages retention of information in line with applicable law, with disposal afterwards.",
-      "gaps": "Keeping the personal data and traffic data themselves for at least a year after processing is a value the organisation must set. The purposes of the retention are those in the Seventh Schedule."
+      "gaps": "Keeping the personal data and traffic data themselves for at least a year after processing is a value the organisation must set. The purposes of the retention are those in the Seventh Schedule. The rule also covers processing on the Data Fiduciary's behalf by a Data Processor, and the controls listed say nothing about a processor's retention."
     },
     {
       "id": "Rules.9",
@@ -738,7 +738,7 @@
       ],
       "coverage_pct": 55,
       "rationale": "PM-20 requires a public page about the privacy programme through which people can reach the organisation. PM-26 requires mechanisms that are easy to use, with the information needed to use them.",
-      "gaps": "Publishing the means of making each kind of rights request, and the identifier a requester must give, is not prescribed."
+      "gaps": "Publishing the means of making each kind of rights request, and the identifier a requester must give, is not prescribed. Rule 14(1) also binds a Consent Manager, where applicable."
     },
     {
       "id": "Rules.14(3)",
@@ -749,7 +749,7 @@
       ],
       "coverage_pct": 80,
       "rationale": "PM-26 requires complaints to be tracked and answered within a defined period. PM-20 makes the programme's information public.",
-      "gaps": "The limit of ninety days, and publishing the period, are values and content the organisation must add."
+      "gaps": "The limit of ninety days, and publishing the period, are values and content the organisation must add. The rule binds a Consent Manager as well as a Data Fiduciary."
     },
     {
       "id": "Rules.14(4)",
@@ -804,7 +804,7 @@
     },
     {
       "id": "Rules.Sch1.B.3-4",
-      "title": "Consent Manager: record of consents, notices and sharing, kept seven years",
+      "title": "Consent Manager: record of consents, notices and sharing, kept for at least seven years",
       "controls": [
         "AC-03",
         "AU-11",
@@ -813,7 +813,7 @@
       ],
       "coverage_pct": 65,
       "rationale": "PM-21 requires an accounting of each disclosure of personal data, retained and available to the individual. AC-03 (individual access) gives the Data Principal access to the record. AU-11 and SI-12 govern how long it is kept.",
-      "gaps": "A record of consents given, denied and withdrawn and of the notices shown, in machine-readable form and kept for seven years, is not prescribed."
+      "gaps": "A record of consents given, denied and withdrawn and of the notices shown, kept for at least seven years, is not prescribed. Making the record available in machine-readable form on the Data Principal's request is not prescribed either."
     },
     {
       "id": "Rules.Sch1.B.7",
