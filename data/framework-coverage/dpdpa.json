@@ -30,7 +30,7 @@
       "pairs_named_by_three": 140,
       "pairs_named_by_two": 55,
       "pairs_named_by_one_and_left_out": 78,
-      "pairs_note": "As rated, the file listed 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own. The file now lists 211 pairs, after the changes in hand_edits, which were made by hand and not by the three ratings.",
+      "pairs_note": "As rated, the file listed 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own. The file now lists 212 pairs, after the changes in hand_edits, which were made by hand and not by the three ratings.",
       "not_mapped": "Definitions, the duties of Data Principals (section 15), exemptions (section 17, rule 12, Fourth Schedule), the constitution and procedure of the Board (sections 18 to 26, rules 17 to 21), the appeal procedure in rule 22 and sections 34, 35 and 37 to 44. Sections 27 to 33, including the appeal, mediation and voluntary undertaking in sections 29 to 32, are one clause, Act.27-33.",
       "commencement": {
         "source": "Rule 1(2) to (4) of the Rules and G.S.R. 843(E), 13 November 2025, which brings the Act into force.",
@@ -54,7 +54,8 @@
         "note": "Rule 4(3) gives the Consent Manager the obligations in Part B of the First Schedule from 2026-11-13, while section 6(8), which says the Consent Manager acts on the Data Principal's behalf subject to the prescribed obligations, comes into force on 2027-05-13. This file does not settle which date governs Rules.Sch1.B."
       },
       "hand_edits": [
-        "Rules.8(2): PM-22 and SI-18 removed and coverage set to 0, because both act after erasure and the rule requires notice at least forty-eight hours before."
+        "Rules.8(2): PM-22 and SI-18 removed and coverage set to 0, because both act after erasure and the rule requires notice at least forty-eight hours before.",
+        "Rules.8(3): SA-09 added, because the rule also covers a Data Processor holding the data and logs on the Data Fiduciary's behalf. Coverage unchanged."
       ]
     }
   },
@@ -648,11 +649,12 @@
       "title": "Personal data, traffic data and logs retained for at least one year",
       "controls": [
         "AU-11",
+        "SA-09",
         "SI-12"
       ],
       "coverage_pct": 80,
-      "rationale": "AU-11 requires audit records to be retained for a defined period. SI-12 manages retention of information in line with applicable law, with disposal afterwards.",
-      "gaps": "Keeping the personal data and traffic data themselves for at least a year after processing is a value the organisation must set. The purposes of the retention are those in the Seventh Schedule. The rule also covers processing on the Data Fiduciary's behalf by a Data Processor, and the controls listed say nothing about a processor's retention."
+      "rationale": "AU-11 requires audit records to be retained for a defined period. SI-12 manages retention of information in line with applicable law, with disposal afterwards. SA-09 requires external providers to comply with the organisation's requirements, which reaches a Data Processor that holds the data and logs for it.",
+      "gaps": "Keeping the personal data and traffic data themselves for at least a year after processing is a value the organisation must set. The purposes of the retention are those in the Seventh Schedule. The rule also covers a Data Processor holding the data on the Data Fiduciary's behalf, and SA-09 carries the requirement to it only if the organisation sets it."
     },
     {
       "id": "Rules.9",
