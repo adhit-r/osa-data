@@ -814,7 +814,7 @@
       ],
       "coverage_pct": 65,
       "rationale": "PM-21 requires an accounting of each disclosure of personal data, retained and available to the individual. AC-03 (individual access) gives the Data Principal access to the record. AU-11 and SI-12 govern how long it is kept.",
-      "gaps": "A record of consents given, denied and withdrawn and of the notices shown, kept for at least seven years, is not prescribed. Making the record available in machine-readable form on the Data Principal's request is not prescribed either."
+      "gaps": "A record of consents given, denied and withdrawn and of the notices shown, kept for at least seven years, is not prescribed. Making the record available in machine-readable form on the Data Principal's request is not prescribed either. AU-11 retains audit records, which a record of consents is not. PM-21 retains its accounting for the longer of the life of the data or five years, which does not guarantee seven."
     },
     {
       "id": "Rules.Sch1.B.7",
