@@ -30,7 +30,29 @@
       "pairs_named_by_three": 140,
       "pairs_named_by_two": 55,
       "pairs_named_by_one_and_left_out": 78,
-      "not_mapped": "Definitions, the duties of Data Principals (section 15), exemptions (section 17, rule 12, Fourth Schedule), the constitution and procedure of the Board (sections 18 to 26, rules 17 to 21), appeals (sections 29 to 32, rule 22) and sections 34, 35 and 37 to 44."
+      "pairs_note": "The file lists 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own.",
+      "not_mapped": "Definitions, the duties of Data Principals (section 15), exemptions (section 17, rule 12, Fourth Schedule), the constitution and procedure of the Board (sections 18 to 26, rules 17 to 21), the appeal procedure in rule 22 and sections 34, 35 and 37 to 44. Sections 27 to 33, including the appeal, mediation and voluntary undertaking in sections 29 to 32, are one clause, Act.27-33.",
+      "commencement": {
+        "source": "Rule 1(2) to (4) of the Rules and G.S.R. 843(E), 13 November 2025, which brings the Act into force.",
+        "phases": [
+          {
+            "from": "2025-11-13",
+            "act": "Section 1(2), section 2, sections 18 to 26, sections 35 and 38 to 43, and section 44(1) and (3).",
+            "rules": "Rules 1, 2 and 17 to 21."
+          },
+          {
+            "from": "2026-11-13",
+            "act": "Section 6(9) and section 27(1)(d).",
+            "rules": "Rule 4."
+          },
+          {
+            "from": "2027-05-13",
+            "act": "Sections 3 to 5, section 6(1) to (8) and (10), sections 7 to 17, section 27 except (1)(d), sections 28 to 34, 36 and 37, and section 44(2).",
+            "rules": "Rules 3, 5 to 16, 22 and 23."
+          }
+        ],
+        "note": "Rule 4(3) gives the Consent Manager the obligations in Part B of the First Schedule from 2026-11-13, while section 6(8), which says the Consent Manager acts on the Data Principal's behalf subject to the prescribed obligations, comes into force on 2027-05-13. This file does not settle which date governs Rules.Sch1.B."
+      }
     }
   },
   "weight_scale": {
@@ -442,10 +464,10 @@
     },
     {
       "id": "Act.27-33",
-      "title": "Inquiry by the Board, directions and penalties",
+      "title": "Inquiry by the Board, directions, appeals, undertakings and penalties",
       "controls": [],
       "coverage_pct": 0,
-      "rationale": "No control addresses the Board's powers of inquiry, its directions or the penalties.",
+      "rationale": "No control addresses the Board's powers of inquiry, its directions, appeals against them, mediation, voluntary undertakings or the penalties.",
       "gaps": "The whole clause. An organisation needs to be able to produce documents and records to the Board and to act on its directions."
     },
     {
@@ -608,7 +630,7 @@
       ],
       "coverage_pct": 55,
       "rationale": "SI-12 (information disposal) requires erasure after the retention period and SI-21 deletion when information is no longer needed. MP-06 sanitises the media.",
-      "gaps": "The three-year period counted from the Data Principal's last approach, for the classes in the Third Schedule, must be built by the organisation."
+      "gaps": "The rule applies only to the classes in the Third Schedule: e-commerce entities with at least two crore registered users in India, online gaming intermediaries with at least fifty lakh and social media intermediaries with at least two crore, and not to the purposes of accessing a user account or a virtual token. The three-year period, counted from the Data Principal's last approach or the commencement of the Rules if later, must be built by the organisation."
     },
     {
       "id": "Rules.8(2)",
@@ -630,7 +652,7 @@
       ],
       "coverage_pct": 80,
       "rationale": "AU-11 requires audit records to be retained for a defined period. SI-12 manages retention of information in line with applicable law, with disposal afterwards.",
-      "gaps": "Keeping the personal data and traffic data themselves for at least a year after processing is a value the organisation must set."
+      "gaps": "Keeping the personal data and traffic data themselves for at least a year after processing is a value the organisation must set. The purposes of the retention are those in the Seventh Schedule."
     },
     {
       "id": "Rules.9",
