@@ -630,7 +630,7 @@
       ],
       "coverage_pct": 55,
       "rationale": "SI-12 (information disposal) requires erasure after the retention period and SI-21 deletion when information is no longer needed. MP-06 sanitises the media.",
-      "gaps": "The rule applies only to the classes in the Third Schedule: e-commerce entities with at least two crore registered users in India, online gaming intermediaries with at least fifty lakh and social media intermediaries with at least two crore, and not to the purposes of accessing a user account or a virtual token. The three-year period, counted from the Data Principal's last approach or the commencement of the Rules if later, must be built by the organisation."
+      "gaps": "The rule applies only to the classes in the Third Schedule: e-commerce entities with at least two crore registered users in India, online gaming intermediaries with at least fifty lakh and social media intermediaries with at least two crore, and not to the purposes of accessing a user account or a virtual token. The three-year period, counted from the date the Data Principal last approached the Data Fiduciary for the specified purpose or exercised her rights, or from the commencement of the Rules, whichever is latest, must be built by the organisation."
     },
     {
       "id": "Rules.8(2)",
