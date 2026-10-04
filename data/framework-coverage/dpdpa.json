@@ -30,7 +30,7 @@
       "pairs_named_by_three": 140,
       "pairs_named_by_two": 55,
       "pairs_named_by_one_and_left_out": 78,
-      "pairs_note": "The file lists 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own.",
+      "pairs_note": "As rated, the file listed 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own. The file now lists 211 pairs, after the changes in hand_edits, which were made by hand and not by the three ratings.",
       "not_mapped": "Definitions, the duties of Data Principals (section 15), exemptions (section 17, rule 12, Fourth Schedule), the constitution and procedure of the Board (sections 18 to 26, rules 17 to 21), the appeal procedure in rule 22 and sections 34, 35 and 37 to 44. Sections 27 to 33, including the appeal, mediation and voluntary undertaking in sections 29 to 32, are one clause, Act.27-33.",
       "commencement": {
         "source": "Rule 1(2) to (4) of the Rules and G.S.R. 843(E), 13 November 2025, which brings the Act into force.",
@@ -52,7 +52,10 @@
           }
         ],
         "note": "Rule 4(3) gives the Consent Manager the obligations in Part B of the First Schedule from 2026-11-13, while section 6(8), which says the Consent Manager acts on the Data Principal's behalf subject to the prescribed obligations, comes into force on 2027-05-13. This file does not settle which date governs Rules.Sch1.B."
-      }
+      },
+      "hand_edits": [
+        "Rules.8(2): PM-22 and SI-18 removed and coverage set to 0, because both act after erasure and the rule requires notice at least forty-eight hours before."
+      ]
     }
   },
   "weight_scale": {
@@ -635,13 +638,10 @@
     {
       "id": "Rules.8(2)",
       "title": "Inform the Data Principal forty-eight hours before erasure",
-      "controls": [
-        "PM-22",
-        "SI-18"
-      ],
-      "coverage_pct": 15,
-      "rationale": "SI-18 (notice of correction or deletion) and PM-22 require individuals to be told that their personal data has been deleted.",
-      "gaps": "Both tell the person after the event. The rule requires notice at least forty-eight hours before, with the chance to prevent the erasure."
+      "controls": [],
+      "coverage_pct": 0,
+      "rationale": "No control addresses telling the Data Principal before erasure that the personal data is about to be erased.",
+      "gaps": "The whole clause. The Data Fiduciary must inform the Data Principal at least forty-eight hours before the period ends that the data will be erased unless she logs in, contacts it or exercises her rights. SI-18 and PM-22 tell the person only after personal data is corrected or deleted."
     },
     {
       "id": "Rules.8(3)",
@@ -879,11 +879,11 @@
   ],
   "summary": {
     "total_clauses": 65,
-    "average_coverage": 55.2,
+    "average_coverage": 55.0,
     "full_count": 10,
     "substantial_count": 17,
     "partial_count": 25,
-    "weak_count": 8,
-    "none_count": 5
+    "weak_count": 7,
+    "none_count": 6
   }
 }
