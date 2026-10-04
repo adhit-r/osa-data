@@ -342,7 +342,7 @@
         "PT-07"
       ],
       "coverage_pct": 45,
-      "rationale": "PT-04 requires consent mechanisms, and PT-07 lets the organisation set conditions for a specific category of personal data such as that of children. IA-12 requires identity evidence to be collected, validated and verified, which is the means of verifying a parent or guardian.",
+      "rationale": "PT-04 requires consent mechanisms, and PT-07 lets the organisation set conditions for a specific category of personal data such as that of children. IA-12 requires identity evidence to be collected, validated and verified for users who need accounts. That can establish who a parent or guardian is, but not their age or their relationship to the child.",
       "gaps": "No control requires a parent's or guardian's consent, or defines a child as a person under eighteen. Rules 10 and 11 set how the consent is verified. Section 9(4) and rule 12 (Fourth Schedule) disapply sections 9(1) and 9(3) to the classes of Data Fiduciary and the purposes listed there, and section 9(5) lets the Central Government notify an age above which a Data Fiduciary is exempt from them."
     },
     {
