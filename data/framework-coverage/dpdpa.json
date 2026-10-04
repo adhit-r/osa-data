@@ -30,7 +30,7 @@
       "pairs_named_by_three": 140,
       "pairs_named_by_two": 55,
       "pairs_named_by_one_and_left_out": 78,
-      "pairs_note": "As rated, the file listed 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own. The file now lists 212 pairs, after the changes in hand_edits, which were made by hand and not by the three ratings.",
+      "pairs_note": "As rated, the file listed 213 pairs. The 195 counted above (140 and 55) exclude the 18 of Rules.Sch1.B.7, which takes the controls and the coverage figure of Act.8(5) and was not rated on its own. The file now lists 210 pairs, after the changes in hand_edits, which were made by hand and not by the three ratings.",
       "not_mapped": "Definitions, the duties of Data Principals (section 15), exemptions (section 17, rule 12, Fourth Schedule), the constitution and procedure of the Board (sections 18 to 26, rules 17 to 21), the appeal procedure in rule 22 and sections 34, 35 and 37 to 44. Sections 27 to 33, including the appeal, mediation and voluntary undertaking in sections 29 to 32, are one clause, Act.27-33.",
       "commencement": {
         "source": "Rule 1(2) to (4) of the Rules and G.S.R. 843(E), 13 November 2025, which brings the Act into force.",
@@ -55,7 +55,8 @@
       },
       "hand_edits": [
         "Rules.8(2): PM-22 and SI-18 removed and coverage set to 0, because both act after erasure and the rule requires notice at least forty-eight hours before.",
-        "Rules.8(3): SA-09 added, because the rule also covers a Data Processor holding the data and logs on the Data Fiduciary's behalf. Coverage unchanged."
+        "Rules.8(3): SA-09 added, because the rule also covers a Data Processor holding the data and logs on the Data Fiduciary's behalf. Coverage unchanged.",
+        "Act.8(7) and Rules.8(1): SI-21 removed. It refreshes information or generates it on demand and deletes it when no longer needed, and SI-12 already covers disposal. Coverage unchanged."
       ]
     }
   },
@@ -304,11 +305,10 @@
       "controls": [
         "MP-06",
         "SA-09",
-        "SI-12",
-        "SI-21"
+        "SI-12"
       ],
       "coverage_pct": 65,
-      "rationale": "SI-12 (information disposal) and SI-21 require information to be erased after its retention period or when no longer needed, and MP-06 sanitises the media. SA-09 carries the requirement to processors.",
+      "rationale": "SI-12 (information disposal) requires information to be erased after its retention period or when no longer needed, and MP-06 sanitises the media. SA-09 carries the requirement to processors.",
       "gaps": "Erasure triggered by withdrawal of consent, and causing a processor to erase, are not stated as such."
     },
     {
@@ -629,11 +629,10 @@
       "title": "Erasure after the period in the Third Schedule",
       "controls": [
         "MP-06",
-        "SI-12",
-        "SI-21"
+        "SI-12"
       ],
       "coverage_pct": 55,
-      "rationale": "SI-12 (information disposal) requires erasure after the retention period and SI-21 deletion when information is no longer needed. MP-06 sanitises the media.",
+      "rationale": "SI-12 (information disposal) requires erasure after the retention period. MP-06 sanitises the media.",
       "gaps": "The rule applies only to the classes in the Third Schedule: e-commerce entities with at least two crore registered users in India, online gaming intermediaries with at least fifty lakh and social media intermediaries with at least two crore, and not to the purposes of accessing a user account or a virtual token. The three-year period, counted from the date the Data Principal last approached the Data Fiduciary for the specified purpose or exercised her rights, or from the commencement of the Rules, whichever is latest, must be built by the organisation."
     },
     {
